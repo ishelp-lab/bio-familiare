@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Great+Vibes&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 30 25% 96%;
+    --foreground: 25 20% 18%;
+
+    --card: 30 20% 93%;
+    --card-foreground: 25 20% 18%;
+
+    --popover: 30 25% 96%;
+    --popover-foreground: 25 20% 18%;
+
+    --primary: 28 30% 45%;
+    --primary-foreground: 30 25% 96%;
+
+    --secondary: 30 18% 85%;
+    --secondary-foreground: 25 20% 18%;
+
+    --muted: 30 15% 90%;
+    --muted-foreground: 25 10% 50%;
+
+    --accent: 35 35% 60%;
+    --accent-foreground: 25 20% 18%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 30 15% 85%;
+    --input: 30 15% 85%;
+    --ring: 28 30% 45%;
+
+    --radius: 0.75rem;
+
+    /* Custom tokens */
+    --warm-gold: 35 50% 55%;
+    --warm-cream: 35 30% 92%;
+    --warm-brown: 25 25% 35%;
+    --warm-tan: 30 20% 75%;
+    --warm-dark: 25 30% 22%;
+
+    --font-display: 'Cormorant Garamond', serif;
+    --font-body: 'Lora', serif;
+    --font-script: 'Great Vibes', cursive;
+
+    --shadow-soft: 0 4px 20px -4px hsl(25 20% 18% / 0.08);
+    --shadow-elevated: 0 12px 40px -8px hsl(25 20% 18% / 0.12);
+    --shadow-glow: 0 0 40px hsl(35 50% 55% / 0.15);
+
+    --gradient-warm: linear-gradient(135deg, hsl(30 25% 96%), hsl(35 30% 92%));
+    --gradient-gold: linear-gradient(135deg, hsl(35 50% 55%), hsl(28 30% 45%));
+    --gradient-overlay: linear-gradient(180deg, hsl(25 30% 22% / 0.1) 0%, hsl(25 30% 22% / 0.6) 100%);
+
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: var(--font-body);
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-display);
+  }
+}
+
+@layer utilities {
+  .font-script {
+    font-family: var(--font-script);
+  }
+
+  .font-display {
+    font-family: var(--font-display);
+  }
+
+  .font-body {
+    font-family: var(--font-body);
+  }
+
+  .shadow-soft {
+    box-shadow: var(--shadow-soft);
+  }
+
+  .shadow-elevated {
+    box-shadow: var(--shadow-elevated);
+  }
+
+  .shadow-glow {
+    box-shadow: var(--shadow-glow);
+  }
+
+  .gradient-warm {
+    background: var(--gradient-warm);
+  }
+
+  .gradient-gold {
+    background: var(--gradient-gold);
+  }
+
+  .gradient-overlay {
+    background: var(--gradient-overlay);
+  }
+
+  .text-balance {
+    text-wrap: balance;
+  }
+}
