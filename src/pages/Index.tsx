@@ -1,7 +1,7 @@
 import { siteConfig } from "@/config/siteConfig";
 import HeroSection from "@/components/HeroSection";
 import LinksSection from "@/components/LinksSection";
-import AboutSection from "@/components/AboutSection";
+/* import AboutSection from "@/components/AboutSection"; */
 import ServicesSection from "@/components/ServicesSection";
 import GallerySection from "@/components/GallerySection";
 import SpaceSection from "@/components/SpaceSection";
