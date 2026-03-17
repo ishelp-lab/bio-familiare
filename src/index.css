@@ -1,3 +1,10 @@
+@font-face {
+  font-family: 'The Season';
+  src: url('/src/assets/fonts/the-season.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Great+Vibes&display=swap');
 
 @tailwind base;
@@ -43,7 +50,7 @@
     --warm-tan: 30 20% 75%;
     --warm-dark: 25 30% 22%;
 
-    --font-display: 'Cormorant Garamond', serif;
+    --font-display: 'The Season', serif;
     --font-body: 'Lora', serif;
     --font-script: 'Great Vibes', cursive;
 
