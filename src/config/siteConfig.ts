@@ -6,6 +6,8 @@ import heroImage from "@/assets/hero-newborn.jpg";
 import logoImage from "@/assets/logo.png";
 import space1 from "@/assets/space-1.jpg";
 import space2 from "@/assets/space-2.jpg";
+import space3 from "@/assets/space-3.jpg";
+import space4 from "@/assets/space-4.jpg";
 import portfolio1 from "@/assets/portfolio-1.jpg";
 import portfolio2 from "@/assets/portfolio-2.jpg";
 import portfolio3 from "@/assets/portfolio-3.jpg";
@@ -23,7 +25,6 @@ export const siteConfig = {
   // Brand
   name: "Studio Familiare",
   tagline: "Fotografias",
-  subtitle: "Newborn · Família · Gestante · Corporativo",
   logo: logoImage,
   hero: {
     image: heroImage,
@@ -64,7 +65,7 @@ export const siteConfig = {
   space: {
     title: "Nosso Espaço",
     description: "Sala de espera e interior climatizados, cenário cama, sofá e fundos de diversas cores. Equipado com puffs, props, iluminação profissional e tudo para seu ensaio.",
-    images: [space1, space2],
+    images: [space1, space2, space3, space4],
     address: "Av. Floriano Peixoto, 1767 - Sl 03, Uberlândia - MG",
   },
 

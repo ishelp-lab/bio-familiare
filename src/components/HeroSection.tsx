@@ -35,7 +35,7 @@ const HeroSection = () => {
             {siteConfig.subtitle}
           </motion.p>
           <motion.h1
-            className="text-2xl md:text-3xl font-display font-light leading-relaxed text-warm-cream"
+            className="text-2xl md:text-2xl font-display font-light leading-relaxed text-warm-cream"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.5, duration: 0.7 }}
