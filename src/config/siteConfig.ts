@@ -18,6 +18,7 @@ import portfolio7 from "@/assets/corporativo2.jpg";
 import portfolio8 from "@/assets/smash-the-cake.jpg";
 import portfolio9 from "@/assets/corporativo3.jpg";
 import portfolio10 from "@/assets/smash-the-cake2.jpg";
+import portfolio11 from "@/assets/familia2.jpg";
 import marianaImage from "@/assets/mariana.jpg";
 import studioSofaImage from "@/assets/studio-sofa.jpg";
 
@@ -58,7 +59,7 @@ export const siteConfig = {
   // Gallery
   gallery: {
     title: "Nosso Trabalho",
-    images: [portfolio1, portfolio2, portfolio3, portfolio4, portfolio5, portfolio6, portfolio7, portfolio8, portfolio9, portfolio10],
+    images: [portfolio1, portfolio2, portfolio3, portfolio4, portfolio5, portfolio6, portfolio7, portfolio8, portfolio9, portfolio10, portfolio11],
   },
 
   // Studio space
