@@ -103,7 +103,7 @@ export const siteConfig = {
     },
     {
       label: "Nosso Instagram",
-      url: "https://instagram.com/studiofamiliare",
+      url: "https://instagram.com/studio.familiare",
       icon: "Instagram",
       variant: "secondary" as const,
     },
