@@ -22,7 +22,7 @@ import marianaImage from "@/assets/mariana.jpg";
 import studioSofaImage from "@/assets/studio-sofa.jpg";
 
 export const siteConfig = {
-  // Brand
+  // Brand 
   name: "Studio Familiare",
   tagline: "Fotografias",
   logo: logoImage,
