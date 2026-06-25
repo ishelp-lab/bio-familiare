@@ -96,6 +96,12 @@ export const siteConfig = {
       icon: "Images",
       variant: "secondary" as const,
     },
+      {
+      label: "Ensaio Gestante",
+      url: "/pdfs/portfolio-gestante.pdf",
+      icon: "Images",
+      variant: "secondary" as const,
+    },
     {
       label: "Locação para Fotógrafos",
       url: "/pdfs/locacao-para-fotografos.pdf",
