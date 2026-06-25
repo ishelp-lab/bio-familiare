@@ -85,13 +85,13 @@ export const siteConfig = {
       variant: "secondary" as const,
     },
     {
-      label: "Newborn Tradicional (até 28 dias)",
+      label: "Newborn Tradicional",
       url: "/pdfs/newborn-tradicional.pdf",
       icon: "Images",
       variant: "secondary" as const,
     },
         {
-      label: "Newborn Afetivo",
+      label: "Newborn Natural",
       url: "/pdfs/newborn-natural.pdf",
       icon: "Images",
       variant: "secondary" as const,
