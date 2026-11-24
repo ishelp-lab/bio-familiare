@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { siteConfig } from "@/config/siteConfig";
 import {
   Baby, Heart, Flower2, Briefcase, Camera,
-  MessageCircle, Images, Instagram, MapPin
+  MessageCircle, Images, Instagram, MapPin, Star
 } from "lucide-react";
 
 const iconMap: Record<string, React.ElementType> = {
@@ -57,6 +57,23 @@ const LinksSection = () => {
         {siteConfig.links.map((link, i) => (
           <LinkButton key={link.label} link={link} index={i} />
         ))}
+      </div>
+
+      <div className="max-w-md mx-auto mt-6 pt-5 border-t border-border/60 text-center">
+        <a
+          href="https://rate-familiare.vercel.app"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex items-center gap-2 px-4 py-2 rounded-full text-sm text-muted-foreground hover:text-foreground hover:bg-card border border-transparent hover:border-border transition-all"
+        >
+          <Star className="w-4 h-4 text-warm-gold fill-warm-gold/80 shrink-0" />
+          <span>
+            Já fotografou conosco?{" "}
+            <strong className="font-medium text-foreground underline underline-offset-4 decoration-border">
+              Avalie sua experiência
+            </strong>
+          </span>
+        </a>
       </div>
     </section>
   );
